@@ -3,8 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-	"export": "next build && next export",
-	"build": "next build",
+    "export": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,6 +14,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "axios": "^0.24.0",
     "date-fns": "^2.27.0",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.4",
