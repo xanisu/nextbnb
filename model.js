@@ -5,6 +5,8 @@ const sequelize = new Sequelize(process.env.POSTGRES_CONNECTION, {
   logging: false
 })
 
+console.log(process.env.POSTGRES_CONNECTION)
+
 export class User extends Model {}
 
 User.init(
